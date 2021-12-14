@@ -1,0 +1,28 @@
+Base path: 'C:/Program Files/Unity/Editor/Data', plugins path 'C:/Program Files/Unity/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileComputeKernel
+  insize=733 path=F:/2021b/AwesomeEffects/StableFluids/Assets/FluidSim3D/Shaders/Kernel.compute kernel=Jacobi1 cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202030> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 4 at Kernel.compute(17): undeclared identifier 'id'
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=732 path=F:/2021b/AwesomeEffects/StableFluids/Assets/FluidSim3D/Shaders/Kernel.compute kernel=Force cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202030> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 4 at (0): Did not find shader kernel 'Force' to compile
+  error: 1 plat 4 at Kernel.compute(22): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Kernel.compute(25): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Kernel.compute(28): signed/unsigned mismatch, unsigned assumed
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=732 path=F:/2021b/AwesomeEffects/StableFluids/Assets/FluidSim3D/Shaders/Kernel.compute kernel=Advect cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202030> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 4 at (0): Did not find shader kernel 'Advect' to compile
+  error: 1 plat 4 at Kernel.compute(22): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Kernel.compute(25): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Kernel.compute(28): signed/unsigned mismatch, unsigned assumed
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=732 path=F:/2021b/AwesomeEffects/StableFluids/Assets/FluidSim3D/Shaders/Kernel.compute kernel=Jacobi2 cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202030> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 4 at (0): Did not find shader kernel 'Jacobi2' to compile
+  error: 1 plat 4 at Kernel.compute(22): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Kernel.compute(25): signed/unsigned mismatch, unsigned assumed
+  error: 1 plat 4 at Kernel.compute(28): signed/unsigned mismatch, unsigned assumed
+ ok=0 outsize=0
+
